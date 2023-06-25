@@ -1,0 +1,24 @@
+{
+  "mealPlan": [
+    {
+      "day": "monday",
+      "food": "spaghetti",
+      "id": 8
+    },
+    {
+      "day": "wednesday",
+      "food": "lasagna",
+      "id": 9
+    },
+    {
+      "day": "tuesday",
+      "food": "tacos",
+      "id": 10
+    },
+    {
+      "day": "friday",
+      "food": "pizza",
+      "id": 12
+    }
+  ]
+}

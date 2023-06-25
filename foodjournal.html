@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+  <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+  <link rel="stylesheet" href="journalstyle.css">
+  <script src="script.js"></script>
+
+  <title>Weekly Meal Planner</title>
+
+</head>
+
+<body>
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Weekly Meal Planner</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="foodjournal.html">Plan Your Meals</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="form-container">
+    <form id="foodForm">
+      <div class="form-group mb-4">
+        <label for="food1">Add Meal</label>
+        <input type="text" class="form-control" id="addDay" placeholder="Day">
+        <input type="text" class="form-control" id="addFood" placeholder="Food">
+        <button type="submit" class="btn btn-dark" id="addMeal">Add Meal</button>
+      </div>
+      <div class="form-group mb-4">
+        <label for="food2">Update Meal Plan</label>
+        <input type="text" class="form-control" id="updateDay" placeholder="Day">
+        <input type="text" class="form-control" id="updateFood" placeholder="Food">
+        <button type="submit" class="btn btn-dark" id="updateMeal">Update Meal</button>
+      </div>
+      <div class="form-group mb-4">
+        <label for="food3">Remove Meal</label>
+        <input type="text" class="form-control" id="deleteDay" placeholder="day">
+        <input type="text" class="form-control" id="deleteFood" placeholder="food">
+        <button type="submit" class="btn btn-dark" id="deleteMeal">Remove Meal</button>
+      </div>
+      <div class="form-group mb-4" id="showMe">
+        <label for="food3">Review Your Meal Plan</label>
+        <textarea type="text" class="form-control" id="showMealPlan" placeholder="day"></textarea>
+        
+      </div>
+      <button type="submit" class="btn btn-dark" id="showMeal">Show Meal Plan</button>
+    </form>
+  </div>
+  
+  <div id="mealEntries" class="mt-4">
+    <!-- Meal entries will be dynamically added here -->
+    <p id="totalCalories"></p>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
+
+
