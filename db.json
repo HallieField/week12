@@ -19,6 +19,11 @@
       "day": "friday",
       "food": "pizza",
       "id": 12
+    },
+    {
+      "day": "tuesday",
+      "food": "chicken",
+      "id": 13
     }
   ]
 }
